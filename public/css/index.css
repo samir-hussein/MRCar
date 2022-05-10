@@ -1,0 +1,123 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:url('../images/14.jpg');
+    background-size: 100%;
+    
+}
+.logo{
+    display: flex;
+    color: #fff;
+    margin-left: 50px;
+    
+}
+.point{
+    width: 7px;
+    margin-top: 45px;
+    height: 7px;
+    background-color: #ff0;
+    border-radius: 50%;
+}
+.contener{
+    margin-left: 100px;
+    width: 1000px;
+    display:flex;
+    justify-content: space-between;
+}
+h4{
+    margin-left: 130px;
+}
+.left{
+    margin-left: 20px;
+}
+.left div{
+    width: 500px;
+    border-radius: 5px;
+    height: 200px;
+    padding: 5px;
+    /* height: 210px; */
+    color: #fff;
+    margin: 15px;
+    background-color:rgba(252, 249, 249, 0.062);
+    box-shadow: 5px 5px 20px #000;
+
+}
+.right{
+    margin-right: 50px;
+    background-color:rgba(252, 249, 249, 0.062);
+    width: 420px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 20px #000;
+}
+.sel{
+text-align: center;
+margin-bottom: 20px;
+}
+.se{
+    margin-bottom: 10px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    margin-left: 75px;
+}
+.se:focus{
+    outline: none;
+}
+input{
+    width: 248px;
+
+    display:block
+}
+h3{
+    margin-left: 150px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+h4{
+text-align:left;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+.sel{
+    margin-top: 30px;
+}
+button{
+    border-radius: 20px;
+    background-color: rgb(255, 255, 0);
+    width: 150px;
+    height: 35px;
+    color: #fff;
+    font-weight: bold;
+    margin: 10px 0 0 80px;
+    border: none;
+    cursor: pointer;
+}
+.button{
+display: flex;
+justify-content: space-around;
+}
+button:hover{
+background-color: #fff;
+color: #ff0;
+transition: 0.5s ease;
+cursor: pointer;
+}
+.op{
+    opacity: 0.2;
+    color: rgba(51, 51, 51, 0.137);
+}
+
+
+.dec{
+    width: 100%;
+    background-color: inherit;
+    border: none;
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+    height: 30px;
+}
+.dec:focus{
+    outline: none;
+}
