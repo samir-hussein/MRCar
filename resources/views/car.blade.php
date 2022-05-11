@@ -29,7 +29,7 @@
                 <h1>MRcar</h1>
                 <div class="point"></div>
             </div>
-            <img src="{{ asset('images/1-54.jpg') }}" alt="">
+            <img src="{{ asset('uploaded_cars/' . $car_data['img']) }}" alt="">
         </div>
         <div class="lfet">
             <p class="p">
